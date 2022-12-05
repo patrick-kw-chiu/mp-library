@@ -6,7 +6,7 @@
     "scripts": {
         "test": "jest --config jest.config.js",
         "build": "tsc",
-        "publish": "tsc && npm publish"
+        "prepare": "npm run build"
     },
     "repository": {
         "type": "git",
